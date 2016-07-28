@@ -1,0 +1,20 @@
+.purp {
+	color: #990073;
+	}
+	
+.line {
+	outline: #00FF00 3px;
+	}
+	
+.jumbotron { 
+	height: 160px;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	border-radius: 0px !important;
+	}
+	
+.jumbotron 
