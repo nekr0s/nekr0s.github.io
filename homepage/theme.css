@@ -13,7 +13,7 @@
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-top: 20px;
+	margin-top: 30px;
 	border-radius: 0px !important;
 	}
 	
@@ -24,7 +24,7 @@
 .searchInput {
 	width: 100%;
 	position: center;
-	margin-top: 360px;
+	margin-top: 80px;
 	display: block;
 	padding: 5px 5px;
 	background-color: #eee;
@@ -33,4 +33,18 @@
 	font-size: 14pt;
 	color: #000000;
 	text-align: center;
+}
+
 	
+ul {
+	margin: 0px;
+	padding: 0px;
+	}	
+	
+li {
+	list-style: none;
+	text-align: inherit;
+	margin-left: 0px;
+	padding: 2px;
+	}
+
