@@ -28,7 +28,13 @@
 	display: block;
 	padding: 5px 5px;
 	background-color: #eee;
-	/*border: 10px solid #28323b;*/
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-transition: box-shadow ease-in-out 0.3s;
+    -o-transition: box-shadow ease-in-out 0.3s;
+    transition: box-shadow ease-in-out 0.3s;
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	font-size: 14pt;
 	color: #000000;
@@ -36,10 +42,11 @@
 }
 
 .searchInput:focus {
-	border: 2px solid #990073;
-	outline-style: initial;
-	}
-	
+	outline: none;
+    border-color: #df9eed;
+    box-shadow: 0 0 7px #990073;
+}
+
 ul {
 	margin: 0px;
 	padding: 0px;
