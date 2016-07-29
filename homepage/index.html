@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <!-- homepage made by the one and only Alexander :P -->
-<!-- last edit: 28/07/16 -->
+<!-- last edit: 29/07/16 -->
 <html>
 <head>
+
 	<title>home</title>
 	<meta name="viewport" content="width = device-width, initial-
 	scale = 1">
@@ -10,6 +11,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href="theme.css" rel="stylesheet" type="text/css">
+
+<!-- styling the main elements -->
 <style>
 body {
 	background-color: #454545;
@@ -30,14 +33,21 @@ a:hover {
 </head>
 
 <body>
-<div class="container">
 
-	<div class="jumbotron">
-		<h1 style="font-size: 46px">Hello <a class= "purp" href="		http://loli.dance/">master</a>, the current time is: 
+<div id="main" class="container">
+	<!-- the welcoming part -->
+	<div id="welcome" class="jumbotron">
+		<h1 style="font-size: 46px">Hello <a class= "purp" href="http://loli.dance/">master</a>, the current time is: 
 			<p id="clock" style="font-size: 36px;" ></p>
 		</h1>
-	</div>
+			<div class="search">
+				<form class="searchForm" method="GET" action ="https://www.google.bg/search?q=">
+					<input class="searchInput" type="text" name="search" placeholder="What are your commands, master?">
+				</form>
+			</div>
+	</div>	
 </div>
+
 </body>
 
 </html>
