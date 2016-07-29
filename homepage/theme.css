@@ -35,6 +35,10 @@
 	text-align: center;
 }
 
+.searchInput:focus {
+	border: 2px solid #990073;
+	outline-style: initial;
+	}
 	
 ul {
 	margin: 0px;

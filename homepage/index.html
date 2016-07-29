@@ -36,7 +36,18 @@ body {
 	box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.75);
 }
 
+#zamunda {
+	padding-top: 5px;
+	}
 
+#zamundaSearch {
+	border: 2px solid #262E3D;
+	outline: none;
+	}
+	
+#zamundaSearch:focus {
+	border: 2px solid #990073;
+	}
 </style>
 	
 </head>
@@ -72,15 +83,15 @@ body {
 			<ul>
 				<li><a href="http://www.kissanime.com" target="_blank">Anime</a> / <a href="http://www.kissmanga.com" target="_blank">Mango</a></li>
 				<li><a href="http://www.reddit.com/r/bindingofisaac" target="_blank">/r/bindingofisaac</a></li>
-				<form method="GET" action="http://zamunda.net/bananas?=" target="_blank">
-					<input type="text" name="search" placeholder="Let's have some fun." style="text-align: center;">
+				<form id="zamunda" method="GET" action="http://zamunda.net/bananas?=" target="_blank">
+					<input id="zamundaSearch" type="text" name="search" placeholder="Let's have some fun." style="text-align: center;">
 				</form>
 			</ul>	
 		</div>
 	</div>
 			<div class="search">
 				<form class="searchForm" method="GET" action ="https://www.google.bg/search?q=">
-					<input class="searchInput" type="text" name="q" placeholder="What are your commands, master?">
+					<input class="searchInput" type="text" name="q" placeholder="What are your commands, master?" autofocus>
 				</form>
 			</div>	
 </div>
