@@ -24,7 +24,7 @@
 .searchInput {
 	width: 100%;
 	position: center;
-	margin-top: 65px;
+	margin-top: 360px;
 	display: block;
 	padding: 5px 5px;
 	background-color: #eee;
@@ -33,3 +33,4 @@
 	font-size: 14pt;
 	color: #000000;
 	text-align: center;
+	
