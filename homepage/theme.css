@@ -9,11 +9,8 @@
 .jumbotron { 
 	height: 160px;
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: 30px;
+	padding-top: 0px;
+	margin-top: 85px;
 	border-radius: 0px !important;
 	}
 	
@@ -62,3 +59,13 @@ li {
 h3 {
 	margin-top: 0px
 	}
+
+h1 {
+	padding: 0px;
+	}
+	
+#clock {
+	padding-top: 7px;}
+
+#hello {
+	padding-top: 13px;}
