@@ -44,6 +44,24 @@
     box-shadow: 0 0 7px #990073;
 }
 
+#zamundaSearch {
+	border: 2px solid #262E3D;
+	outline: none;
+	border: 1px solid #000000;
+	border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-transition: box-shadow ease-in-out 0.3s;
+    -o-transition: box-shadow ease-in-out 0.3s;
+    transition: box-shadow ease-in-out 0.3s;
+	}
+	
+#zamundaSearch:focus {
+	outline: none;
+    border-color: #df9eed;
+    box-shadow: 0 0 3px #990073;
+	}
+
 ul {
 	margin: 0px;
 	padding: 0px;
