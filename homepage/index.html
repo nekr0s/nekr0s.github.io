@@ -1,43 +1,103 @@
 <!DOCTYPE html>
-<!-- homepage made by the one and only Alexander :P -->
-<!-- last edit: 28/07/16 -->
+<!-- 
+ _   _  _____ _   ________ _____ 
+| \ | ||  ___| | / /| ___ \  _  |
+|  \| || |__ | |/ / | |_/ / |/' |
+| . ` ||  __||    \ |    /|  /| |
+| |\  || |___| |\  \| |\ \\ |_/ /
+\_| \_/\____/\_| \_/\_| \_|\___/ 
+
+-->
+<!-- last edit: 29/07/16 -->
 <html>
 <head>
-	<title>home</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Home</title>
 	<meta name="viewport" content="width = device-width, initial-
 	scale = 1">
 	<script src="clock.js"></script>
+	<link rel="icon" type="image/png" href="home-icon.png">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href="theme.css" rel="stylesheet" type="text/css">
+
+<!-- styling the main elements -->
 <style>
 body {
 	background-color: #454545;
 	font-family: Roboto Slab, serif;
-	outline: #00FF00 3px;
-	}
-	
-h1 {
 	text-align: center;
 	}
-	
-a:hover {
+
+#master:hover {
 	color: #BF1F97 !important;
 	text-decoration: none !important;
 	}
+	
+.row {
+	color: inherit;
+	text-align: center;
+	padding: 3%;
+	margin-top: 6.8%;
+	
+	background-color: #eee;
+	box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.75);
+}
+
+
 </style>
 	
 </head>
 
 <body>
-<div class="container">
 
-	<div class="jumbotron">
-		<h1 style="font-size: 46px">Hello <a class= "purp" href="		http://loli.dance/">master</a>, the current time is: 
+<div id="main" class="container">
+	<!-- the welcoming part -->
+	<div id="welcome" class="jumbotron">
+		<div id="hello">
+		<h1 style="font-size: 46px;">Hello <a id="master" class= "purp" href="http://loli.dance/">master</a>, the current time is: 
 			<p id="clock" style="font-size: 36px;" ></p>
 		</h1>
+		</div>
 	</div>
+	<div id="table" class="row">
+		<div class="col-md-4">
+			<h3>Social</h3>
+			<ul>
+				<li><a href="https://www.youtube.com/feed/subscriptions" target="_blank">Youtube</a></li>
+				<li><a href="https://www.facebook.com/profile.php" target="_blank">Facebook</a></li>
+				<li><a href="https://www.4chan.org/g" target="_blank">/g/</a> 
+				<a href="https://www.4chan.org/wg" target="_blank">/wg/</a> <a href="http://4chan.org/g/wt" target="_blank">/wt/</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>Code</h3>
+			<ul>
+				<li><a href="https://www.tutorialspoint.com/index.htm/" target="_blank">TutorialsPoint</a></li>
+				<li><a href="http://www.github.com/" target="_blank">Github</a> / <a href="https://drive.google.com/drive/my-drive" target="_blank">Drive</a></li>
+				<li><a href="https://in.thecamp.me/" target="_blank">theCamp</a></li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>Productivity</h3>
+			<ul>
+				<li><a href="http://www.kissanime.com" target="_blank">Anime</a> / <a href="http://www.kissmanga.com" target="_blank">Manga</a></li>
+				<li><a href="https://strelki.info/" target="_blank">strelki.info</a></li>
+				<form id="zamunda" method="GET" action="http://zamunda.net/bananas?=" target="_blank">
+					<input id="zamundaSearch" type="text" name="search" placeholder="Let's have some fun." style="text-align: center;">
+				</form>
+			</ul>	
+		</div>
+	</div>
+			<div class="search">
+				<form class="searchForm" method="GET" action ="https://www.google.bg/search?q=">
+					<input class="searchInput" type="text" name="q" placeholder="What are your commands, master?" autofocus>
+				</form>
+			</div>	
 </div>
+
 </body>
 
 </html>
